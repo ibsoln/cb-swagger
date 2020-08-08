@@ -1,4 +1,4 @@
-rootProject.name = 'cb-swagger'
+rootProject.name = 'ib-swagger'
 include 'admin', 'functions', 'indexes', 'analytics-service', 'analytics-config', 'analytics-admin', 'analytics-links'
 project(':admin').projectDir = new File (settingsDir, 'src/admin')
 project(':admin').buildFileName = 'admin.gradle'
